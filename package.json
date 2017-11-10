@@ -1,0 +1,11 @@
+{
+  "name": "lowbar",
+  "version": "1.0.0",
+  "description": "Phil's implementation of lowbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "P Worthington",
+  "license": "ISC"
+}
