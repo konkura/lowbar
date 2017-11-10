@@ -1,11 +1,19 @@
 {
   "name": "lowbar",
   "version": "1.0.0",
-  "description": "Phil's implementation of lowbar",
+  "description": "Phil's implementation of lodash/underscore functions",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha ./spec/",
+    "lint": "eslint ./",
+    "posttest": "npm run lint",
+    "precommit": "npm test"
   },
   "author": "P Worthington",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1"
+  }
 }
